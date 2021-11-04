@@ -1,0 +1,101 @@
+:root{
+    --primary-color: #002642;
+    --secondary-color: #69140e;
+    --third-color: #a44200;
+    --background-color: #e5e7e6;
+    --secondary-background: #b7b5b3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 10;
+    color: var(--background-color);
+    background-color: var(--secondary-color);
+}
+
+button:hover{
+    animation-duration: 1s;
+    animation-name: nav-buttons;  
+    animation-direction: alternate;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-color: var(--primary-color);
+    margin: 10px 30px;
+    height: 100px;
+}
+
+.Header h1{
+    margin: 10px 50px;
+}
+
+.Nav{
+    display: flex;
+    height: 75%;
+    width: 600px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 25%;
+}
+
+.About-me #profile{
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    width: 25%;
+}
+
+.About-me img{
+    border-style: solid;
+    border-radius: 180px;
+    border-color: var(--primary-color);
+    width: 100%;
+    height: auto;
+}
+
+.Portfolio h1, .Portfolio a{
+    margin: 15px;
+}
+
+@keyframes nav-buttons {
+    from{
+        padding: 15px;
+    }
+
+    to{
+        padding: 30px;
+    }
+}
