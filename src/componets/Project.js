@@ -54,20 +54,21 @@ function Project(props) {
                 <h1>Contact</h1>
 
                 <form>
-                    <label>
+                    <label className='form-content'>
                         Name:
-                        <input id='name' name='name' placeholder='Name' required></input>
+                        
                     </label>
+                    <input id='name' name='name' placeholder='Name' required></input>
 
-                    <label>
+                    <label className='form-content'>
                         Email:
-                        <input id='email' type='email' name='email' placeholder='Email' required></input>
                     </label>
+                    <input id='email' type='email' name='email' placeholder='Email' required></input>
 
-                    <label>
+                    <label className='form-content'>
                         Message:
-                        <textarea id='message' type='text' name='message' placeholder='Enter message here' rows='10' required></textarea>
                     </label>
+                    <textarea  id='message' type='text' name='message' placeholder='Enter message here' rows='10' required></textarea>
                 </form>
             </div>
         )

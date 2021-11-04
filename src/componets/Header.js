@@ -6,20 +6,28 @@ function Header(props) {
   function Nav(props) {
     const { setSelected } = props
     return (
-        <div className='Nav'>
-          <button id='about-me' onClick={() => setSelected('AboutMe')}>
+      <div className='Nav'>
+        <div className='button-con' >
+          <button onClick={() => setSelected('AboutMe')}>
             About Me
           </button >
+        </div>
+        <div className='button-con' >
           <button id='portfolio' onClick={() => setSelected('Portfolio')}>
-              Porfolio
-          </button >
-          <button id='contact' onClick={() => setSelected('Contact')}>
-              Contact
-          </button >
-          <button id='resume' onClick={() => setSelected('Resume')}>
-              Resume
+            Porfolio
           </button >
         </div>
+        <div className='button-con' >
+          <button id='contact' onClick={() => setSelected('Contact')}>
+            Contact
+          </button >
+        </div>
+        <div className='button-con' >
+          <button id='resume' onClick={() => setSelected('Resume')}>
+            Resume
+          </button >
+        </div>
+      </div>
     )
   }
 
