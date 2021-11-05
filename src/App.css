@@ -105,6 +105,9 @@ nav {
 }
 
 .Portfolio a img {
+    width: 100%;
+    height: auto;
+    min-width: 300px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
     transition: box-shadow 0.3s ease-in-out;
 }
@@ -116,7 +119,6 @@ nav {
 .Contact {
     display: flex;
     align-items: center;
-    width: 50%;
 }
 
 .Contact form {
@@ -125,6 +127,7 @@ nav {
     align-items: center;
     border-radius: 20px;
     width: 100%;
+    min-width: 350px;
     background-color: var(--third-color);
 }
 
@@ -145,8 +148,14 @@ nav {
     padding: 5px;
     outline: none;
     margin-bottom: 30px;
-    max-width: 75%;
+    width: 80%;
     resize: horizontal;
+}
+
+.Resume img {
+    width: 100%;
+    height: auto;
+    min-width: 500px;
 }
 
 .Footer {
@@ -203,6 +212,17 @@ nav {
         flex-wrap: wrap;
     }
 }
+
+@media screen and (max-width: 480px){
+    .Header h1 {
+        text-align: center;
+    }
+    
+    p {
+        text-align: center;
+    }
+}
+
 
 @keyframes nav-buttons {
     from {
