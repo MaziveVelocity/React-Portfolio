@@ -1,0 +1,9 @@
+{
+  "short_name": "Portfolio",
+  "name": "Cayman's Portfolio",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#002642",
+  "background_color": "#E5E7E6"
+}
