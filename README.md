@@ -22,3 +22,7 @@ and Lastly is the resume page that lets you view my resume.
 ---
 
 ## Screenshot and link
+
+[Portfolio Page](https://mazivevelocity.github.io/React-Portfolio/)
+
+![Screen Shot](/assets/screenshot.png)
