@@ -131,6 +131,10 @@ nav {
     background-color: var(--third-color);
 }
 
+.Contact form button {
+    margin: 15px;
+}
+
 .Contact form .form-content {
     color: var(--secondary-background);
     background-color: var(--third-color);

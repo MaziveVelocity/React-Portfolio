@@ -18,7 +18,7 @@ function Project(props) {
             <div className='About-me project'>
                 <h1>About Me</h1>
                 <div id='profile'>
-                    <img src='/assets/images/headShot.jpg' />
+                    <img src='/assets/images/headShot.jpg' alt='Portfolio image of Cayman Gill'/>
                     <h2>Full Stack developer</h2>
                 </div>
 
@@ -69,6 +69,8 @@ function Project(props) {
                         Message:
                     </label>
                     <textarea  id='message' type='text' name='message' placeholder='Enter message here' rows='10' required></textarea>
+
+                    <button>Submit</button>
                 </form>
             </div>
         )
